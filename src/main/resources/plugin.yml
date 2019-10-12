@@ -1,0 +1,26 @@
+main: "io.github.lutzenh.cppmc.Main"
+version: "1.0"
+api-version: "1.14"
+name: "CockpitPaperMC"
+author: "LutzenH"
+commands:
+  entitycount:
+    description: Returns the entity amount of a certain type.
+    usage: /<command> namespace:entityname
+    permission: <CockpitPaperMC.entitycount>
+    permission-message: You don't have <permission>
+  exportentitycount:
+    description: exports the entity count as a JSON.
+    usage: /<command>
+    permission: <CockpitPaperMC.exportentitycount>
+    permission-message: You don't have <permission>
+  exportplugincount:
+    description: exports a list of installed plugins as a JSON.
+    usage: /<command>
+    permission: <CockpitPaperMC.exportplugincount>
+    permission-message: You don't have <permission>
+  exportplayercount:
+    description: exports a list of online players as a JSON.
+    usage: /<command>
+    permission: <CockpitPaperMC.exportplayercount>
+    permission-message: You don't have <permission>
