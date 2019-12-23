@@ -9,6 +9,11 @@ commands:
     usage: /<command> namespace:entityname
     permission: <CockpitPaperMC.entitycount>
     permission-message: You don't have <permission>
+  deathcount:
+    description: Return or set the amount of times a player has died.
+    usage: /<command> username [amount]
+    permission: <CockpitPaperMC.entitycount>
+    permission-message: You don't have <permission>
   exportentitycount:
     description: exports the entity count as a JSON.
     usage: /<command>

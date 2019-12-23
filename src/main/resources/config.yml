@@ -1,2 +1,3 @@
 entity_count_sync_frequency: 200
 player_info_sync_frequency: 200
+enable_death_count_prefix: true
